@@ -1,0 +1,18 @@
+# PlayStation Network & Discord Credentials
+npsso_key: PLAYSTATION_NPSSO_KEY
+online_id: PLAYSTATION_ID
+client_app_id: 873550009310797854
+
+# Update frequency in seconds
+update_interval: 15
+
+# Display format settings
+# If true: Shows game in "state" (bottom text) and console as a small image
+# If false: Shows game in "details" (top text) and "Playing on {Console}" in "state" without a small image
+state_console: false
+
+# System display names
+systems:
+  ps4_main: "PlayStation®4"
+  ps5_main: "PlayStation®5"
+  default: "ps5_main" # Fallback if platform isn't explicitly PS4/PS5 (e.g., mobile app)
